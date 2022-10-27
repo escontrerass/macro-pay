@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: 'Open Sans', 'Roboto', 'sans-serif';
+}
+
+a {
+  text-decoration: none;
+}
+
+#root {
+  background-color: #ebeff4;
+}
+
+.App {
+  overflow: hidden;
+}
+
+.css-1abc02a {
+  right: -45px !important;
+}
+
+.css-hn784z {
+  left: -45px !important;
+}
+
+.footer-wave {
+  background-image: url('./assets/wave-background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.credit {
+  background: transparent linear-gradient(180deg, #ffd300 0%, #d2ae00 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid #00000000;
+  opacity: 1;
+  transform: rotate(45deg);
+}
+
+.category-search > div[aria-expanded='true'] {
+  background-color: #d8e0e9;
+}
+
+.cart-button:hover {
+  background-color: #2b3445;
+}
+
+.article-card:hover {
+  box-shadow: 0px 10px 17px -6px rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  overflow-y: scroll;
+}
+
+.color-modal {
+  font-weight: bold;
+}
+
+.price-modal {
+  color: #004ac1;
+}
+
+.article-model {
+  font-weight: bold;
+}
+
+.detail-img {
+  border-radius: 8px;
+}
